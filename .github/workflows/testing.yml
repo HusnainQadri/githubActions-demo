@@ -1,0 +1,9 @@
+name: workflow demo
+
+on: [push]
+
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action
