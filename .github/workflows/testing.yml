@@ -6,4 +6,4 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      run: python testWallet.py
+      - run: python testWallet.py
